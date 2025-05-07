@@ -1,0 +1,6 @@
+{
+    "diagnostics.globals": [
+        "init",
+        "copy_value"
+    ]
+}
