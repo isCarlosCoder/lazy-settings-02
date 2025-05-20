@@ -42,6 +42,13 @@ keymap.set("n", "<C-j>", "<C-w>-")
 --	vim.diagnostic.goto_next()
 -- end, opts)
 
+-- fasts
+for i = string.byte("a"), string.byte("z") do
+	local letter = string.char(i)
+	keymap.set("n", "gm" .. letter, "`" .. letter, opts)
+	keymap.set("n", "mm" .. letter, ":delmarks " .. letter .. "<Return>", opts)
+end
+
 -- lsp
 local function customOpts(desc)
 	return {

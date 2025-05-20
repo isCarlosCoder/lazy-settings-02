@@ -27,7 +27,7 @@ return {
 						return require("lspconfig.util").root_pattern(".git")(...)
 					end,
 					completion = {
-						limitSuggestions = 20,
+						limitSuggestions = 8,
 					},
 				},
 				tsserver = {
