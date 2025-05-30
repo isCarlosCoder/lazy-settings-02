@@ -40,11 +40,11 @@ return {
 							inlayHints = {
 								includeInlayParameterNameHints = "literal",
 								includeInlayParameterNameHintsWhenArgumentMatchesName = false,
-								includeInlayFunctionParameterTypeHints = true,
+								includeInlayFunctionParameterTypeHints = false,
 								includeInlayVariableTypeHints = false,
-								includeInlayPropertyDeclarationTypeHints = true,
-								includeInlayFunctionLikeReturnTypeHints = true,
-								includeInlayEnumMemberValueHints = true,
+								includeInlayPropertyDeclarationTypeHints = false,
+								includeInlayFunctionLikeReturnTypeHints = false,
+								includeInlayEnumMemberValueHints = false,
 							},
 						},
 						javascript = {
